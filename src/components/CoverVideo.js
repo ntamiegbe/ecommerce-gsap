@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Video from '../assets/Walking Girl.mp4'
+import Video from '../assets/pexels.mp4'
 
 const VideoContainer = styled.section`
 width: 100%;
@@ -64,10 +64,11 @@ const CoverVideo = () => {
             <DarkOverlay />
             <Title>
                 <div>
-                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.13'>V</h1>
-                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.09'>i</h1>
-                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.06'>b</h1>
-                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.04'>e</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.13'>S</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.09'>t</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.06'>y</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.04'>l</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.02'>e</h1>
                 </div>
                 <h2 data-scroll data-scroll-speed="2" data-scroll-delay='0.04'>Insipre, Create, Believe</h2>
             </Title>
