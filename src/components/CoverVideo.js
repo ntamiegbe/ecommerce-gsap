@@ -51,6 +51,11 @@ h2{
     font-family: "Sirin Stencil";
 
 }
+
+div{
+    display: flex;
+    flex-direction: row;
+}
 `
 
 const CoverVideo = () => {
@@ -59,9 +64,12 @@ const CoverVideo = () => {
             <DarkOverlay />
             <Title>
                 <div>
-                    <h1 data-scroll data-scroll-speed="4">Vibe</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.13'>V</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.09'>i</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.06'>b</h1>
+                    <h1 data-scroll data-scroll-speed="4" data-scroll-delay = '0.04'>e</h1>
                 </div>
-                <h2>Insipre, Create, Believe</h2>
+                <h2 data-scroll data-scroll-speed="2" data-scroll-delay='0.04'>Insipre, Create, Believe</h2>
             </Title>
             <video src={Video} type='video/mp4' autoPlay muted loop />
         </VideoContainer>
