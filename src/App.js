@@ -31,7 +31,7 @@ function App() {
           }
           containerRef={containerRef}
         >
-          <main className="App" ref={containerRef}>
+          <main className="App" ref={containerRef} data-scroll-container>
             <Home />
             <About />
           </main>
